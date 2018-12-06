@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <!-- 这个是在容器中央的 -->
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:background="#0000FF"
+        android:text="BLUE"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <!-- 在中间图片的左边 -->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toLeftOf="@id/button1"
+        android:text="GREEN"
+        android:layout_centerVertical="true"
+        android:background="#00FF00"/>
+
+    <!-- 在中间图片的右边 -->
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@id/button1"
+        android:text="INDIGO"
+        android:textColor="#FFFFFF"
+        android:layout_centerVertical="true"
+        android:background="#4A0084"/>
+
+    <!-- 在中间图片的上面-->
+
+    <Button
+        android:id="@+id/botton4"
+        android:layout_height="80dp"
+        android:layout_width="80dp"
+        android:text="ORANGE"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FFA600"/>
+
+    <!-- 在中间图片的左上面 -->
+    <Button
+        android:id="@+id/botton5"
+        android:layout_height="80dp"
+        android:layout_width="80dp"
+        android:text="RED"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="#FF0000"/>
+
+    <!-- 在中间图片的右上面 -->
+    <Button
+        android:id="@+id/botton6"
+        android:layout_height="80dp"
+        android:layout_width="80dp"
+        android:text="YELLOW"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#E3E300"/>
+
+    <!-- 在中间图片的下面 -->
+    <Button
+        android:id="@+id/botton7"
+        android:layout_height="80dp"
+        android:layout_width="fill_parent"
+        android:text="VIOLET"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#EF82EF"/>
+
+</RelativeLayout>

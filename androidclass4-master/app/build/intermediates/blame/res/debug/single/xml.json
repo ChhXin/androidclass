@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\14334\\AndroidStudioProjects\\androidclass4\\app\\build\\intermediates\\res\\merged\\debug\\xml\\action_preferences.xml",
+        "source": "C:\\Users\\14334\\AndroidStudioProjects\\androidclass4\\app\\src\\main\\res\\xml\\action_preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\14334\\AndroidStudioProjects\\androidclass4\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "C:\\Users\\14334\\AndroidStudioProjects\\androidclass4\\app\\src\\main\\res\\xml\\preferences.xml"
+    }
+]
